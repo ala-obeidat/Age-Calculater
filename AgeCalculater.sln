@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeCalculater.Service", "AgeCalculater.Service\AgeCalculater.Service.csproj", "{6BCE761C-53D5-4B52-A0A0-37B9257FABE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeCalculater.Client", "AgeCalculater.Client\AgeCalculater.Client.csproj", "{F57C53CD-3F62-4B4E-BD13-91E1BF6FDE29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BCE761C-53D5-4B52-A0A0-37B9257FABE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BCE761C-53D5-4B52-A0A0-37B9257FABE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BCE761C-53D5-4B52-A0A0-37B9257FABE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BCE761C-53D5-4B52-A0A0-37B9257FABE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57C53CD-3F62-4B4E-BD13-91E1BF6FDE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57C53CD-3F62-4B4E-BD13-91E1BF6FDE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57C53CD-3F62-4B4E-BD13-91E1BF6FDE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57C53CD-3F62-4B4E-BD13-91E1BF6FDE29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FED2BC4-289F-40D2-A21D-BC36798A0F2A}
+	EndGlobalSection
+EndGlobal

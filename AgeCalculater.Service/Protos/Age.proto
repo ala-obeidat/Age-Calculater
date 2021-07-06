@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "AgeCalculater.Service";
+
+package Age;
+
+// The greeting service definition.
+service Ager {
+  // Sends a greeting
+  rpc Calculate (AgeRequest) returns (AgeResponse);
+}
+
+// The request message containing the user's name.
+message AgeRequest {
+  int64 bithDate = 1;
+}
+
+// The response message containing the greetings.
+message AgeResponse {
+  string fullAge = 1;
+}
